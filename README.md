@@ -45,8 +45,8 @@ Per sfruttare al massimo l'hardware, utilizzeremo diversi ambienti:
 ## 🗺️ Roadmap degli Esperimenti
 
 ### 🟢 Fase 1: Setup e "Hello World"
-- [ ] **1.1 Setup Ambiente:** Installazione driver USB (CH9102), M5Burner e VS Code.
-- [ ] **1.2 Hardware Check:** Flash del firmware "UserDemo" o "Factory Test" per verificare che schermo, microfono, giroscopio e tasti funzionino correttamente.
+- [x] **1.1 Setup Ambiente:** Installazione driver USB (CH9102), M5Burner e VS Code.
+- [x] **1.2 Hardware Check:** Flash del firmware "UserDemo" o "Factory Test" per verificare che schermo, microfono, giroscopio e tasti funzionino correttamente.
 
 ### 🔴 Fase 2: Into the Matrix (Radio Hacking con Bruce)
 *Obiettivo: Prendere confidenza con il modulo Radio Hat esterno.*
