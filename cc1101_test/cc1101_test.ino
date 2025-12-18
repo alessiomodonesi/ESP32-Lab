@@ -1,13 +1,13 @@
 #include <Arduino.h>
 #include <ELECHOUSE_CC1101_SRC_DRV.h>
 
-// Definiamo i pin usando i nomi Arduino della Nucleo
-// Questo rende tutto più facile da leggere
-#define SCK_PIN   D13  // PA5
-#define MISO_PIN  D12  // PA6
-#define MOSI_PIN  D11  // PA7
-#define CSN_PIN   D10  // PB6 (di solito)
-#define GDO0_PIN  D2   // PA10 (di solito)
+// PIN DEFINITIONS (Nucleo F446RE)
+#define SCK_PIN   D13 // G0
+#define MISO_PIN  D12 // yellow groove
+#define MOSI_PIN  D11 // white groove
+#define CSN_PIN   D10 // G26
+#define GDO0_PIN  D2 // G36
+// collegare anche 3V3 e GND
 
 void setup() {
     Serial.begin(115200);
